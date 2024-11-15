@@ -9,7 +9,7 @@ export function createMapScript(options) {
   if (Array.prototype.isPrototypeOf(options.libraries)) {
     options.libraries = options.libraries.join(',')
   }
-  options['callback'] = 'vueGoogleMapsInit123'
+  options['callback'] = 'vueGoogleMapsInit'
   let baseUrl = 'https://maps.googleapis.com/maps/api/js?'
 
   let url =
